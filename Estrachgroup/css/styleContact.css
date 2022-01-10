@@ -1,0 +1,113 @@
+main{
+    margin-top: 2em;
+    background: rgb(243, 243, 243);
+    color: rgb(88, 88, 88);
+}
+  
+/***************** BARRA NAV FIJA **********************/
+.navbar{
+    background:  rgb(4, 0, 58)!important;
+    position: fixed;
+}
+  
+.navbar-nav li a{
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    color:#7a7a7a  !important;
+    font-size: 1.2em;
+}
+
+/****************************************
+            PAGINA CONTACTO
+****************************************/
+/*********** PRESUPUESTO  ***********/
+.eventos-bg{
+    padding: 2em 1em;
+    padding-top: 8em;
+}
+  
+.presupuesto-bg{
+    background: rgb(221, 221, 221);
+    border-radius: 5px 5px 0 0 !important;
+}
+    
+.text-pr{
+    color: #757575;
+}
+  
+.formulario{
+    color: rgb(117, 117, 117);
+    font-size: 1.2em;
+    padding: 2em;
+    border: 1px solid #cacaca;
+    border-radius: 0 0 5px 5px !important;
+}
+  
+.form-check-label > a{
+    color: gray;
+    padding-bottom: 6px;
+}
+    
+.btn-pr{
+    border: none;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+    
+.form-control.is-invalid, .was-validated .form-control:invalid, .form-control:active {
+    border-color: rgb(205, 207, 205);
+    background-image: none;
+}
+  .fa-envelope:before, .fa-phone-alt:before {
+    font-size: 0.5em;
+}
+
+
+/***************************************
+                FOOTER
+**************************************/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: em;
+    margin: 0;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 1em;
+}
+  
+footer span > i{
+    color: #606864;
+}
+  
+footer p > a{
+    margin-left: 1px;
+    margin-right: 5px;
+    text-decoration: none !important;
+    color: #7a7a7a;
+}
+
+    
+/******************** MEDIA QUERY ************************/
+@media (min-width: 992px) {
+    .contacto-ocultar{
+      display: none;
+    }
+}
+  
+@media (max-width: 991px) {
+    .contacto-mostrar{
+      display: none;
+    }
+  
+    .contacto-ocultar > h2{
+      font-size: 1.2em;
+    }
+}
+  
+@media (min-width: 576px){
+    .card-deck {
+      margin-right: 0 !important;
+    }
+}

@@ -1,0 +1,391 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+}
+
+h1, h2, h3{
+    font-size: 36px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+}
+
+/* MENU - NAV */
+header{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    width: 50% !important;
+}
+
+.navbar{
+    background: #003d8f !important;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: #ffffff !important;
+}
+
+.desactivado{
+    width: 300px;
+}
+
+/******************************************
+            ESTILOS PARA MENU
+******************************************/
+.menu{
+    justify-content: center !important;
+}
+
+.bg-light{
+    background-color: #fff!important;
+}
+
+.desactivado > a{
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.fa-tty{
+    font-size: 20px;
+}
+/******************************************
+                 MAIN
+******************************************/
+/*********************************
+         cabecera
+***********************************/
+.cabecera{
+    padding: 2em;
+    padding-top: 12em;
+    padding-bottom: 0;
+}
+
+.btn-cont{
+    width: 200px;
+}
+
+.imagen-cabecera{
+    text-align: end;
+}
+
+.imagen-cabecera > img{
+    width: 600px;
+}
+/*********************************
+         COBERTURAS 
+***********************************/
+.estrachgroup{
+    background: rgb(236, 239, 248);
+    padding-top: 7.2em;
+    padding-bottom: 2.5em;
+    color: rgb(138, 138, 138);
+    border-bottom: 1px solid rgb(224, 240, 251);
+}
+
+.estrachgroup > div > p{
+    font-size: 1.2em;
+}
+
+/* linea hr */
+.hr3{
+    width: 150px;
+    color: #000000;
+}
+
+/******************* COBERTURAS IMG ******************/
+/* Titulo */
+.cobertura{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+/* GALERIA DE IMAGENES */
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+.snip1581 {
+  font-family: 'Poppins:400,700', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 310px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1581 img {
+  max-width: 100%;
+  /* min-height: 420px;
+  max-height: 420px; */
+  vertical-align: top;
+}
+.snip1581 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.snip1581 h3 {
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 3px 0;
+}
+.snip1581 .title1 {
+  font-weight: 700;
+}
+.snip1581 .title2 {
+  color: #9aa57c;
+  font-weight: 300;
+}
+.snip1581 .title3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.snip1581 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1581:hover img,
+.snip1581.hover img {
+  -webkit-transform: scale(1.3) rotate(5deg);
+  transform: scale(1.3) rotate(5deg);
+}
+/******************************************
+                SERVICIOS
+******************************************/
+.section1{
+    background: rgb(255, 255, 255);
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-bottom: 1px solid rgb(216, 237, 252);
+}
+    
+.cont-servicios{
+    display: flex;
+}
+
+/******** letras de titulos ********/
+.h2-serv, .compromiso{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 48px;
+    letter-spacing: .3px;
+}
+
+.h2-serv{
+    color:rgb(100, 100, 100);
+}
+
+
+/* ICONOS */
+.fa-unlock-alt{
+    color: darkgreen;
+}
+
+.fa-user-lock{
+    color: darkslategrey;
+}
+
+.fa-file-signature{
+    color: darkgoldenrod;
+}
+
+.fa-mask{
+    color: black;
+}
+
+.fa-hand-holding-usd{
+    color: cadetblue;
+}
+
+.fa-users{
+    color: rgb(1, 1, 87);
+}
+/************* Card **************/
+.card-deck .card {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.card{
+    background: transparent;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.card-body{
+    font-size: 1.2em !important;
+    color: rgb(87, 87, 87);
+}
+
+.card-text-1{
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/*************************************
+            PRESUPUESTO  
+************************************/
+.presupuesto{
+    background: rgb(219, 234, 248);
+    padding: 12em;
+    font-weight: 300;
+    color: rgb(104, 103, 103);
+}
+
+.presupuesto > div > h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.cont-2{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+  
+/***************************************
+            NUESTRO COMPROMISO
+**************************************/
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 65vh; */
+    background: rgb(209, 229, 246);
+    border-bottom: 1px solid rgb(209, 209, 209) ;
+}
+
+.compromiso{
+    color: darkblue;
+}
+
+.card-transp{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+i{
+    font-size: 3em;
+}
+
+.fa-smile{
+    color: darkgreen;
+}
+
+.fa-handshake{
+    color: darkblue;
+}
+
+.fa-heart{
+    color: crimson;
+}
+
+/***************************************
+                FOOTER
+**************************************/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+    background:  #003d8f;
+    color: #fff;
+    font-size: 1em;
+}
+  
+footer span > i{
+    color: #fff;
+}
+  
+footer p > a{
+    margin-left: 1px;
+    margin-right: 5px;
+    text-decoration: none !important;
+    color: #fff;
+}
+
+/************************************************
+      Flecha para volver hacia arriba
+************************************************/
+footer span > i {
+    color: #023981;
+}
+
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+}
+
+.fa-stack {
+    height: 2em;
+    line-height: 1em;
+}
+
+.fa-arrow-up:before {
+    font-size: 0.5em;
+    margin-bottom: 1em;
+}
+  
+/************************************************
+                PAGINA EQUIPO
+************************************************/
+.nosotros{
+    padding-top: 8em;
+}
+
+.fecha{
+    text-transform: uppercase;
+}
+
+.hrnos{
+    width: 150px;
+}
+
+
+
